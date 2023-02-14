@@ -1,0 +1,112 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif;
+}
+
+.main{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100px;
+}
+
+.logo{
+ flex: 1;
+}
+
+.links{
+ flex: 1;
+}
+
+.social-media{
+ display: flex;
+ flex: 1;
+ align-items: center;
+ justify-content: center;
+}
+
+.links ul {
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+}
+
+.links ul li a {
+ text-decoration: none;
+ color: #000;
+}
+
+.logo h1{
+ text-align: center;
+}
+
+.social-media img {
+ padding: 12px;
+}
+
+
+.banner{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 800px;
+}
+
+.hamburger{
+ display: none;
+}
+
+.sekcija{
+  margin-left: 120px;
+  margin-right: 120px;
+  border: 2px solid black;
+  margin-bottom: 50px;
+}
+.sekcija h1{
+  font-size: 1.9vw;
+  text-align: center;
+}
+.kontent{
+  margin: 3rem;
+  text-align: center;
+}
+.kartica{
+  width: 450px;
+  height: 300px;
+  padding-top:  1.8rem;
+  display: inline-block;
+  border: 2px solid rgb(0, 8, 255);
+  vertical-align: middle;
+}
+
+.footer{
+  background-color: black;
+}
+.footer .container{
+  padding-left: 130px;
+  padding: 20px 20px 20px 130px;
+  border: 2px solid yellow;
+  display: flex;
+}
+.footer .container ul{
+  margin-right: 100px;
+}
+.footer .container ul li{
+  padding: 10px;
+}
+.footer .container ul li a{
+  text-decoration: none;
+  color: rgb(227, 223, 223);
+}
+
+H2{
+  color: white;
+  padding: 20px;
+  padding-left: 140px;
+}
+
+
+
+
